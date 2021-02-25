@@ -1,3 +1,10 @@
 module.exports = {
-  tabWidth: 2,
+  overrides: [
+    {
+      files: ["*.html", "*.css"],
+      options: {
+        tabWidth: 2
+      }
+    }
+  ]
 };
