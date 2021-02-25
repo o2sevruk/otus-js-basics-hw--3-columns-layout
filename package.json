@@ -1,0 +1,32 @@
+{
+  "name": "otus-js-basics-hw--3-columns-layout",
+  "version": "1.0.0",
+  "description": "Otus. JavaScript Basics. Homework. 04. 3 Columns Layout.",
+  "private": true,
+  "scripts": {
+    "lint": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o2sevruk/otus-js-basics-hw--3-columns-layout"
+  },
+  "author": "o2sevruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o2sevruk/otus-js-basics-hw--3-columns-layout/issues"
+  },
+  "homepage": "https://github.com/o2sevruk/otus-js-basics-hw--3-columns-layout#readme",
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "lint-staged": {
+    "*.{html,css,md}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
